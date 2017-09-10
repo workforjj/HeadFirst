@@ -24,9 +24,4 @@ public static DealAll getbean(String type){
 		return null;
 	}
 }
-public static void main(String[] args){
-	//获取对应的对象
-	DealAll all = getbean("one");
-	all.dealThings();
-}
 }
